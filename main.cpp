@@ -119,7 +119,6 @@ void addCar(Car car[], int &lenC){
             car[lenC].setVehicleType((vehicleType)suv);
             car[lenC].setPricePerDay((vehicleType)suv);
             break;
-            
         }else if(vehicleT.compare("exotic") == 0){
             car[lenC].setVehicleType((vehicleType)exotic);
             car[lenC].setPricePerDay((vehicleType)exotic);
@@ -130,7 +129,6 @@ void addCar(Car car[], int &lenC){
     };
     
     lenC++;
-    
 }
 
 //------------------------------ Search Car List -------------------------------
