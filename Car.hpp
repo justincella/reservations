@@ -46,12 +46,10 @@ class Car {
             out <<"Sedan" << endl;
             out << " Price Per Day: " << car.getPricePerDay() << endl;
             out << " Available Status:";
-
         }else if(car.getPricePerDay() == 35){
             out<<"Suv" << endl;
             out << " Price Per Day: " << car.getPricePerDay() << endl;
             out << " Available Status:";
-
         }else{
             out << "Exotic" << endl;
             out << " Price Per Day: " << car.getPricePerDay() << endl;
